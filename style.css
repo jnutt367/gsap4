@@ -1,6 +1,10 @@
-html {
+body {
     background-image: linear-gradient(#fff, red);
     position: relative;
+}
+
+body {
+    background-image: linear-gradient(#fff, red);
 }
 
 h1 {
@@ -71,6 +75,11 @@ h1 {
 
 .pink {
     background-color: pink;
+    transition: transform 2s;
+}
+
+.pink:hover {
+    transform: skewY(45deg);
 }
 
 .black {

@@ -3,8 +3,10 @@ gsap.to(".box", {
     duration: 0.3,
 
     stagger: {
-        each: 0.1,
-        from: "start"
+        each: 0.3,
+        from: "start",
+        repeat: -1,
+        yoyo: true,
     }
 
 });
